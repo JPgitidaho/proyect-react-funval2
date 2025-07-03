@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <SearchBar onSearch={setCategory} />
       <NavButtons onSelectCategory={setCategory} />
-      <h2 className="text-center text-2xl font-semibold my-4 text-[#1A202C]">
+      <h2 className="text-center text-3xl font-semibold my-4 text-[#1A202C]">
         {category.charAt(0).toUpperCase() + category.slice(1)} Pictures
       </h2>
       <Gallery category={category} />

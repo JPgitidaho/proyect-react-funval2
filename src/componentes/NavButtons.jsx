@@ -7,7 +7,7 @@ export default function NavButtons({ onSelectCategory }) {
         <button
          key={cat}
           onClick={() => onSelectCategory(cat)}
-          className="bg-[#1A202C] text-white px-4 py-1 rounded hover:bg-[#2C5282] transition"
+          className="bg-[#1A202C] text-white px-4 py-0.5 rounded hover:bg-[#2C5282] transition"
         >
           {cat.charAt(0).toUpperCase() + cat.slice(1)}
         </button>
