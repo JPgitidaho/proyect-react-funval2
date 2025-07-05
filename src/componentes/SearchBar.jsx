@@ -30,7 +30,7 @@ export default function SearchBar({ onSearch }) {
           type="submit"
           disabled={!input.trim()}
           className={`px-4 py-2 rounded-r-md transition-colors ${
-            input.trim() ? "bg-[#1A202C]" : "bg-gray-300/30 cursor-not-allowed"
+            input.trim() ? "bg-[#1A202C]" : "bg-gray-300/30 "
           }`}
         >
           🔍
