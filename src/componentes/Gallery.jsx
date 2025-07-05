@@ -26,7 +26,7 @@ export default function Gallery({ category }) {
   }, [category]);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4 mt-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4 mt-4 py-10">
       {images.map((img, index) => (
         <ImageCard key={index} url={img.url} alt={img.alt} />
       ))}
